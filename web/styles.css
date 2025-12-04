@@ -270,7 +270,7 @@ button:active { transform: translateY(1px); }
   overflow: hidden;
 }
 .info-card .compact-table th {
-  width: 24%;
+  width: 22%;
   background: #f0f4ff;
   color: var(--azul-oscuro);
   font-weight: 800;
@@ -280,6 +280,16 @@ button:active { transform: translateY(1px); }
   color: #1f2f4b;
   font-weight: 600;
   word-break: break-word;
+}
+.info-card .table-wrapper {
+  width: 100%;
+  overflow: hidden !important;
+  padding: 0;
+}
+.info-card .table-wrapper table {
+  width: 100%;
+  min-width: 0 !important;
+  table-layout: fixed;
 }
 .table-wrapper {
   width: 100%;
