@@ -235,14 +235,60 @@ button:active { transform: translateY(1px); }
   background: #fff;
   border: 1px solid #dce6f5;
   border-radius: 18px;
-  padding: 10px 12px 14px;
+  padding: 12px 14px 16px;
   box-shadow: 0 14px 28px rgba(26, 47, 88, 0.12);
+  background: linear-gradient(180deg, #f8faff 0%, #ffffff 50%, #f8faff 100%);
 }
 .compact-table.vehicle-table th,
 .compact-table.vehicle-table td {
   text-align: left;
   border: 1px solid #e3eaf6;
   padding: 6px 8px;
+}
+.info-card .vehicle-table {
+  table-layout: fixed;
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.info-card .compact-table th {
+  width: 36%;
+  background: #f0f4ff;
+  color: var(--azul-oscuro);
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+.info-card .compact-table td {
+  color: #1f2f4b;
+  font-weight: 600;
+  word-break: break-word;
+}
+.info-card .vehicle-table {
+  table-layout: fixed;
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.info-card .compact-table th {
+  width: 36%;
+  background: #f0f4ff;
+  color: var(--azul-oscuro);
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+.info-card .compact-table td {
+  color: #1f2f4b;
+  font-weight: 600;
+  word-break: break-word;
+}
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  padding: 2px 0;
+}
+.table-wrapper table {
+  width: 100%;
+  min-width: 640px;
 }
 .center-banner {
   display: flex;
