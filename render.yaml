@@ -1,0 +1,7 @@
+services:
+  - type: static
+    name: cotizador-web
+    env: static
+    buildCommand: ""
+    staticPublishPath: web
+    pullRequestPreviewsEnabled: false
