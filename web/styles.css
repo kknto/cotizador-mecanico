@@ -283,12 +283,12 @@ button:active { transform: translateY(1px); }
 }
 .table-wrapper {
   width: 100%;
-  overflow-x: hidden;
+  overflow: hidden;
   padding: 0;
 }
 .table-wrapper table {
   width: 100%;
-  min-width: 0;
+  min-width: auto;
   table-layout: fixed;
 }
 .center-banner {
